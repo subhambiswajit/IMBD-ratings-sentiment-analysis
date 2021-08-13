@@ -3,7 +3,7 @@ from utils import *
 
 
 if __name__ == "__main__":
-    # datasetDir = getIMDBData()  # Utility to download and unzip dataset
+    datasetDir = getIMDBData()  # Utility to download and unzip dataset
     removeRedundantDirectory()
 
     # Loading training data from train directory
